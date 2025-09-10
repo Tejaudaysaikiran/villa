@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding: 0;
+}
+/*tophead starts*/
+.header{
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    border-bottom: 1px solid #3c3a3a;
+}
+
+.header a{
+    text-decoration: none;
+    padding:5px;
+    color:rgb(121,113,113)
+}
+.tophead{
+    display: flex;
+}
+
+
+.tophead i{
+    color: orangered;
+}
+.icon{
+    display: flex;
+   
+    padding-right: 50px;
+    font-size: 20px;
+    justify-content: end;
+    
+}
+.social-icon{
+    color:rgb(121,113,113) ;
+}
+.social-icon a {
+  padding: 8px;
+  
+  
+}
+.social-icon a:hover {
+  color: orangered;
+  cursor: pointer;
+
+}
+/*top head ends*/
+
+.villa-header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.navbar{
+    width:100%;
+    height:100px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    gap:15%;
+}
+.villa{
+    padding:20px 20px 20px 60px;
+    font-size: x-large;
+}
+
+
